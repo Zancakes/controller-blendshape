@@ -1,6 +1,6 @@
 import maya.cmds as cmds
 
-locator= cmds.spaceLocator(n= "Ctrl_blendshape")
+locator= cmds.spaceLocator(n= "Ctrl_blendshape") * The n is for changing the name of the locator
 
 # The name of the attributes can be changed 
 attrs = ["eyeBlinkLeft",
